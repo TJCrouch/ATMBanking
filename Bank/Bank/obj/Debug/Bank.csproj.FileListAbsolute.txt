@@ -1,0 +1,7 @@
+C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\obj\Debug\Bank.csprojResolveAssemblyReference.cache
+C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\bin\Debug\Bank.dll
+C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\bin\Debug\nunit.framework.dll
+C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\bin\Debug\nunit.framework.xml
+C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\obj\Debug\Bank.dll
+C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\obj\Debug\Bank.pdb
