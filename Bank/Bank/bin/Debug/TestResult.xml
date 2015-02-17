@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!--This file represents the results of running a test suite-->
-<test-results name="C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\bin\Debug\Bank.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-12" time="13:15:43">
-  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="CIT132-27" user="nwtech" user-domain="CIT132-27" />
+<test-results name="C:\Users\logan\Documents\GitHub\ATMBanking\Bank\Bank\bin\Debug\Bank.dll" total="3" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-17" time="12:16:32">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.7905" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="LOGAN-PC" user="logan" user-domain="LOGAN-PC" />
   <culture-info current-culture="en-US" current-uiculture="en-US" />
-  <test-suite type="Assembly" name="C:\Users\nwtech\Desktop\ATMTest\Bank\Bank\bin\Debug\Bank.dll" executed="True" result="Success" success="True" time="0.062" asserts="0">
+  <test-suite type="Assembly" name="C:\Users\logan\Documents\GitHub\ATMBanking\Bank\Bank\bin\Debug\Bank.dll" executed="True" result="Success" success="True" time="0.175" asserts="0">
     <results>
-      <test-suite type="Namespace" name="Bank" executed="True" result="Success" success="True" time="0.044" asserts="0">
+      <test-suite type="Namespace" name="Bank" executed="True" result="Success" success="True" time="0.126" asserts="0">
         <results>
-          <test-suite type="TestFixture" name="AccountTest" executed="True" result="Success" success="True" time="0.042" asserts="0">
+          <test-suite type="TestFixture" name="AccountTest" executed="True" result="Success" success="True" time="0.122" asserts="0">
             <results>
-              <test-case name="Bank.AccountTest.Deposit" executed="True" result="Success" success="True" time="0.021" asserts="0" />
-              <test-case name="Bank.AccountTest.ViewBalance" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+              <test-case name="Bank.AccountTest.Deposit" executed="True" result="Success" success="True" time="0.051" asserts="0" />
+              <test-case name="Bank.AccountTest.ViewBalance" executed="True" result="Success" success="True" time="0.008" asserts="0" />
               <test-case name="Bank.AccountTest.Withdraw" executed="True" result="Success" success="True" time="0.001" asserts="0" />
             </results>
           </test-suite>
