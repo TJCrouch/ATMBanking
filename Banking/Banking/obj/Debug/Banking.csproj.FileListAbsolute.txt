@@ -1,0 +1,6 @@
+C:\Users\logan\Documents\GitHub\ATMBanking\Banking\Banking\bin\Debug\Banking.dll
+C:\Users\logan\Documents\GitHub\ATMBanking\Banking\Banking\bin\Debug\Banking.pdb
+C:\Users\logan\Documents\GitHub\ATMBanking\Banking\Banking\bin\Debug\nunit.framework.dll
+C:\Users\logan\Documents\GitHub\ATMBanking\Banking\Banking\bin\Debug\nunit.framework.xml
+C:\Users\logan\Documents\GitHub\ATMBanking\Banking\Banking\obj\Debug\Banking.dll
+C:\Users\logan\Documents\GitHub\ATMBanking\Banking\Banking\obj\Debug\Banking.pdb
