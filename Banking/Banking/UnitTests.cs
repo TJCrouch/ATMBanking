@@ -22,7 +22,7 @@ namespace Banking
             int x;
             x=1350;
             myAccount.Deposit(350, "checkingbalance");
-            Assert.AreEqual(myAccount.ViewBalance("checkingbalance"), x);
+            Assert.AreEqual(myAccount.checkingBalance, x);
 
         }
         [Test]
@@ -31,26 +31,25 @@ namespace Banking
             Account myAccount = new Account() { AccountID = 1, checkingBalance = 1000, savingsBalance = 1000 };
             int x = 650;
             myAccount.Withdraw(350, "checkingbalance");
-            Assert.AreEqual(myAccount.ViewBalance("checkingbalance"), x);
+            Assert.AreEqual(myAccount.checkingBalance, x);
         }
       
         [Test]
         public void DepositSavings()
         {
-            Account myAccount = new Account() { AccountID = 1, checkingBalance = 1000, savingsBalance = 1000 };
+            Account myAccount = new Account() { AccountID = 2, checkingBalance = 1000, savingsBalance = 1000 };
             int x = 1350;
             myAccount.Deposit(350, "savingsbalance");
-            Assert.AreEqual(x, myAccount.ViewBalance("savingsbalance"));
+            Assert.AreEqual(myAccount.savingsBalance, x);
 
         }
         [Test]
         public void WithdrawSavings()
         {
-            Account myAccount = new Account() { AccountID = 1, checkingBalance = 1000, savingsBalance = 1000 };
-            int x;
-            x=650;
-            myAccount.Withdraw(350, "savingsbalance");
-            Assert.AreEqual(myAccount.ViewBalance("savingsbalance"), x);
+            Account myAccount = new Account() { AccountID = 2, checkingBalance = 1000, savingsBalance = 1000 };
+           int x = 650;
+           myAccount.Withdraw(350, "savingsbalance");
+            Assert.AreEqual(myAccount.savingsBalance, x);
         }
         [Test]
         public void ViewCheckingBalance()
@@ -75,6 +74,8 @@ namespace Banking
            x = myAccount.savingsBalance.ToString();
             Assert.AreEqual(x, yString);
         }
+
+
     }
 
 

@@ -10,6 +10,7 @@ namespace Banking
     {
         public int AccountID { get; set; }
         public int checkingBalance { get; set; }
+
         public int savingsBalance { get; set; }
 
      
@@ -23,7 +24,7 @@ namespace Banking
                     checkingBalance = checkingBalance - amount;
                 }
             }
-            else
+            else if(type == "savingsbalance")
             {
                 if (isValid("savingsBalance", amount))
                 {
@@ -38,7 +39,7 @@ namespace Banking
             {
                 checkingBalance = checkingBalance + amount;
             }
-            else
+            else if(type == "savingsbalance")
             {
                 savingsBalance = savingsBalance + amount;
             }
@@ -71,7 +72,7 @@ namespace Banking
             {
                 a = checkingBalance;
             }
-            if(type == "savingsBalance")
+            if(type == "savingsbalance")
             {
                 a = savingsBalance;
             }
@@ -109,5 +110,9 @@ namespace Banking
             
         }
 
+
+
+
+        
     }
 }

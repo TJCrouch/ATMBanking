@@ -13,6 +13,9 @@ namespace Banking
         public string lastName { get; set; }
         public string Address { get; set; }
         public int fkaccountID { get; set;}
+        public int pin { get; set; }
+
         
+
     }
 }
